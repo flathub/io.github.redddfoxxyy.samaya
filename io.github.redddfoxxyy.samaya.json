@@ -49,9 +49,9 @@
 			"sources": [
 				{
 					"type": "git",
-					"url": "https://github.com/RedddFoxxyy/samaya.git",
-					"commit": "e17b9d0d23ad964a0c28678dbad8192a217900aa",
-					"tag": "0.1.3"
+					"url": "https://codeberg.org/lockedmutex/samaya.git",
+					"commit": "74e3cf58bda6de9e7ce266d013b7d42dcb34ec62",
+					"tag": "0.1.4"
 				}
 			],
 			"config-opts": ["--buildtype=release"]
