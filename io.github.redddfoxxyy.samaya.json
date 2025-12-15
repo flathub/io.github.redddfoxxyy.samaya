@@ -4,13 +4,7 @@
   "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "samaya",
-  "finish-args": [
-    "--share=ipc",
-    "--socket=fallback-x11",
-    "--device=dri",
-    "--socket=wayland",
-    "--socket=pulseaudio"
-  ],
+  "finish-args": ["--share=ipc", "--socket=fallback-x11", "--device=dri", "--socket=wayland", "--socket=pulseaudio"],
   "cleanup": [
     "/include",
     "/lib/pkgconfig",
@@ -50,8 +44,8 @@
         {
           "type": "git",
           "url": "https://codeberg.org/lockedmutex/samaya.git",
-          "commit": "b5b76c779b08fc456503c19e164ad2aa3ad697c2",
-          "tag": "0.1.5"
+          "commit": "6a25065a532c4de0465484faf22dab4a283c063d",
+          "tag": "0.1.6"
         }
       ],
       "config-opts": ["--buildtype=release"]
