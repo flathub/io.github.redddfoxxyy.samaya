@@ -4,7 +4,13 @@
   "runtime-version": "49",
   "sdk": "org.gnome.Sdk",
   "command": "samaya",
-  "finish-args": ["--share=ipc", "--socket=fallback-x11", "--device=dri", "--socket=wayland", "--socket=pulseaudio"],
+  "finish-args": [
+    "--share=ipc",
+    "--socket=fallback-x11",
+    "--device=dri",
+    "--socket=wayland",
+    "--socket=pulseaudio"
+  ],
   "cleanup": [
     "/include",
     "/lib/pkgconfig",
@@ -28,7 +34,9 @@
     {
       "name": "gsound",
       "buildsystem": "meson",
-      "config-opts": ["--buildtype=release"],
+      "config-opts": [
+        "--buildtype=release"
+      ],
       "sources": [
         {
           "type": "archive",
@@ -44,11 +52,13 @@
         {
           "type": "git",
           "url": "https://codeberg.org/lockedmutex/samaya.git",
-          "commit": "599ece73aa31797bb5d55fe27b17dd6517b25596",
-          "tag": "1.0.0"
+          "commit": "86347b3cac6eae50599cc76e9ded079469ef2570",
+          "tag": "1.1.0"
         }
       ],
-      "config-opts": ["--buildtype=release"]
+      "config-opts": [
+        "--buildtype=release"
+      ]
     }
   ]
 }
