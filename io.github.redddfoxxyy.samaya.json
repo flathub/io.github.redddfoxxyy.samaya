@@ -13,21 +13,10 @@
   ],
   "cleanup": [
     "/include",
-    "/lib/pkgconfig",
-    "/man",
-    "/share/doc",
-    "/share/gtk-doc",
-    "/share/man",
-    "/share/pkgconfig",
-    "*.la",
-    "*.a",
-    "/bin/*-config",
-    "/share/aclocal",
-    "/share/info",
-    "/lib/cmake",
-    "/share/vala",
     "/lib/girepository-1.0",
-    "/share/gir-1.0"
+    "/lib/pkgconfig",
+    "/share/gir-1.0",
+    "/share/vala"
   ],
   "modules": [
     "shared-modules/libcanberra/libcanberra.json",
@@ -48,6 +37,9 @@
     {
       "name": "samaya",
       "buildsystem": "meson",
+      "config-opts": [
+        "--buildtype=release"
+      ],
       "sources": [
         {
           "type": "git",
@@ -55,9 +47,6 @@
           "commit": "8c319ea54ff961e23f642fd6a9e945124fdbd001",
           "tag": "1.2.0"
         }
-      ],
-      "config-opts": [
-        "--buildtype=release"
       ]
     }
   ]
