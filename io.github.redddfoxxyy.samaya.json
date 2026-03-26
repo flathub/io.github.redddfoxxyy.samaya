@@ -1,7 +1,7 @@
 {
   "id": "io.github.redddfoxxyy.samaya",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "49",
+  "runtime-version": "50",
   "sdk": "org.gnome.Sdk",
   "command": "samaya",
   "finish-args": [
@@ -52,8 +52,8 @@
         {
           "type": "git",
           "url": "https://codeberg.org/lockedmutex/samaya.git",
-          "commit": "86347b3cac6eae50599cc76e9ded079469ef2570",
-          "tag": "1.1.0"
+          "commit": "8c319ea54ff961e23f642fd6a9e945124fdbd001",
+          "tag": "1.2.0"
         }
       ],
       "config-opts": [
